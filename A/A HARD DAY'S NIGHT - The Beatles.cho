@@ -1,0 +1,57 @@
+# ------------------------------------------------------------
+# A HARD DAY'S NIGHT - The Beatles
+# ------------------------------------------------------------
+{ns}
+{define: Bm base-fret 1 frets x x x 4 3 2} 
+{define: F base-fret 1 frets x x 3 2 1 1} 
+{define: FaddG base-fret 1 frets x x 3 2 1 3}
+{t: A HARD DAY’S NIGHT – The Beatles}                                 
+{st: (Lennon/McCartney)}                                                  
+{composer: John Lennon; Paul McCartney} 
+{artist: The Beatles}
+[FaddG]
+
+
+{soc: Chorus}
+It's been a [G]hard, [C]day's, [G]night, and I've been work[F]ing, like a [G]dog.
+It's been a [G]hard, [C]day's, [G]night, I should be slee[F]ping, like a [G]log.
+But when I [C]get home to you, I find the [D]things that you do, will make me [G]feel [C]al [G]right.
+{eoc}
+
+
+{sov: Verse 1}
+You know I work, [C]all, [G]day, to get you mon[F]ey, to buy you [G]things.
+And it's worth it just to [C]hear you [G]say, you're gonna give [F]me, every[G]thing.  
+So why on [C]earth should I moan, 'cause when I [D]get you alone, you know I [G]feel [C]o [G]kay.
+
+When I'm [Bm]home, [Em]everything seems to be [Bm]right.  
+When I'm [G]home, [Em]feeling you holding me [Am]tight, [D]tight yeah.
+{eov}
+
+
+{soc: Chorus}
+It's been a [G]hard, [C]day's, [G]night, and I've been work[F]ing, like a [G]dog.  
+It's been a [G]hard, [C]day's, [G]night, I should be sleep[F]ing, like a [G]log.
+But when I [C]get home to you, I find the [D]things that you do, will make me [G]feel [C]al [G]right.   Owwww.
+{eoc}
+
+
+{sov: Solo/Verse}
+    
+    [G] [C] [G]    [F]  [G]     [G] [C] [G]    [F]  [G]
+
+So why on [C]earth should I moan, 'cause when I [D]get you alone, you know I [G]feel [C]o [G]kay.
+
+When I'm [Bm]home, [Em]everything seems to be [Bm]right.
+When I'm [G]home, [Em]feeling you holding me [Am]tight, [D]tight yeah.
+{eov}
+
+
+{soc: Chorus}
+It's been a [G]hard, [C]day's, [G]night, and I've been work[F]ing, like a [G]dog.  
+It's been a [G]hard, [C]day's, [G]night, I should be sleep[F]ing, like a [G]log.  
+But when I [C]get home to you, I find the [D]things that you do, will make me [G]feel [C]al [G]right.
+{eoc}
+
+
+You know I feel [C]al [G]right.   You know I feel [C]al [G]right.
