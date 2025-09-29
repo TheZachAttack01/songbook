@@ -3,15 +3,12 @@
 # ----------------------------------------------------------------------------
 {ns}
 {define: Bm base-fret 1 frets x x 4 4 3 2} 
-{t: ALL MY LOVING (In D) – The Beatles}
+{t: ALL MY LOVING – The Beatles}
 {st: (Lennon/McCartney)}
 {artist: The Beatles}
 {composer: John Lennon; Paul McCartney}
-
-
-https://www.youtube.com/watch?v=TSpiwK5fig0  (Capo 2)                                                                                              .
-
-There's also a version in G without the (Bm).                                                                    
+{key: D}
+{capo: 2}
 
 
 [NC]Close your [Em]eyes and I'll [A7]kiss you, to[D]morrow I'll [Bm]miss you.  
@@ -29,8 +26,10 @@ And I'll [G]send all my [A7]loving to [D]you.
 [NC]All  my [Bm]loving, I will send to [D]you.  
 All my [Bm]loving, darling I'll be [D]true.
 
-
-[D] [G]     [D][,]     [Em][-][A7][,]     [|][D][|]       
+{start_of_verse: solo}
+[]
+[|]  [G]  [|]  [G]  [|]  [D]  [|]  [D]  [|]  [Em]  [|]  [A]  [|]  [D]  [|]  [D]   [|]      
+{end_of_verse}
 
 
 [NC]Close your [Em]eyes and I'll [A7]kiss you, to[D]morrow I'll [Bm]miss you.  
