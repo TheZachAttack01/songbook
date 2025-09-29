@@ -43,8 +43,8 @@
 			// The first page of a song has:
 			"title" : {
 				// Title and subtitle.
-				"title" : [ "%{title}", "", "" ],
-				"subtitle" : [ "%{subtitle|%{}|%{subtitle}}", "", "Capo: %{capo}" ]
+				"title" : [ "", "%{title}", "" ],
+				"subtitle" : [ "", "%{subtitle|%{}|%{subtitle}}", "Capo: %{capo}" ]
 			}
     },
 		"labels" : {
