@@ -11,80 +11,84 @@
     // Layout definitions for PDF output.
     "pdf" : {
 	  // Style of chorus.
-		"chorus" : {
-	    	"indent" : 12,
-	    	// Chorus side bar.
-	    	"bar" : {
-			"width" : 0.5
-	    	}
-		},
-	  //chord diagrams on right side
-		"diagrams" : {
-			"show" : "right",
-			"width" : 6,
-			"height" : 6,
-			"hspace" : 3.95,
-			"vspace" : 3,
-			"vcells" : 4,
-			"linewidth" : 0.1
-		},
-
-		// Keyboard diagrams, shown at the right side.
-		"kbdiagrams" : {
-			"show" : "right"
-		},
-
-		// A {titles: left} may conflict with customized formats.
-		// Set to non-zero to ignore the directive.
-		"titles-directive-ignore" : true,
-
-		// Formats.
-		"formats" : {
-			// Titles/Footers.
-			// The first page of a song has:
-			"title" : {
-				// Title and subtitle.
-				"title" : [ "", "%{title}", "" ],
-				"subtitle" : [ "", "%{subtitle|%{}|%{subtitle}}", "%{capo|Capo:%{capo}}" ]
-			}
-    },
-		"labels" : {
-			"width" : "auto",
-			"align" : "left"
-		},
-
-		"fonts" : {
-			"title" : {
-				"name" : "Helvetica-Bold"
-			},
-			"text" : {
-			  "name" : "Helvetica",
-			  "size" : 9
-			},
-		  "chord" : {
-			  "name" : "Helvetica-Bold",
-			  "size" : 11,
-        "color" : "blue"
+		  "chorus" : {
+	      	"indent" : 12,
+	    	  // Chorus side bar.
+	    	  "bar" : {
+			  "width" : 0.5
+	      	}
 		  },
-		  "comment" : {
-			  "name" : "Helvetica",
-			  "size" : 10,
-			  "type" : "label",
-			  "slant" : "italic",
+      "marginbottom" : 20,
+      "spacing" : {
+        "title" : 1
+      },
+	  //chord diagrams on right side
+		  "diagrams" : {
+			  "show" : "right",
+			  "width" : 6,
+			  "height" : 6,
+			  "hspace" : 3.95,
+			  "vspace" : 3,
+			  "vcells" : 4,
+			  "linewidth" : 0.1
+		  },
+
+		  // Keyboard diagrams, shown at the right side.
+		  "kbdiagrams" : {
+		  	"show" : "right"
+		  },
+
+		  // A {titles: left} may conflict with customized formats.
+		  // Set to non-zero to ignore the directive.
+		  "titles-directive-ignore" : true,
+
+		  // Formats.
+		  "formats" : {
+			  // Titles/Footers.
+			  // The first page of a song has:
+			  "title" : {
+				  // Title and subtitle.
+				  "title" : [ "", "%{title}", "" ],
+				  "subtitle" : [ "", "%{subtitle|%{}|%{subtitle}}", "%{capo|Capo:%{capo}}" ]
+			  }
+      },
+		  "labels" : {
+			  "width" : "auto",
 			  "align" : "left"
 		  },
-		  "toc" : {
-			  "name" : "Helvetica",
-			  "size" : 11
-			 },
-		  "label" : {
-			  "name" : "Helvetica",
-			  "slant" : "italic"
-      },
-		  "capo": { 
-			  "name": "Helvetica-BoldOblique", "size": 11 
-		  }
-	  }	
-  }
+
+		  "fonts" : {
+			  "title" : {
+				  "name" : "Helvetica-Bold"
+			  },
+			  "text" : {
+			    "name" : "Helvetica",
+			    "size" : 9
+			  },
+		    "chord" : {
+			    "name" : "Helvetica-Bold",
+			    "size" : 10,
+          "color" : "blue"
+		    },
+		    "comment" : {
+			    "name" : "Helvetica",
+			    "size" : 10,
+			    "type" : "label",
+			    "slant" : "italic",
+			    "align" : "left"
+		    },
+		    "toc" : {
+			    "name" : "Helvetica",
+			    "size" : 11
+			  },
+		    "label" : {
+			    "name" : "Helvetica",
+			    "slant" : "italic"
+        },
+		    "capo": { 
+			    "name": "Helvetica-BoldOblique", "size": 11 
+		    }
+	    }	
+    }
 }
-// End of config
+  // End of config
